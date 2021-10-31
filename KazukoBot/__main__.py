@@ -74,7 +74,7 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-Hey...I'm Kazuko
+Hey...I'm malaai
 I am an Anime themed group management bot
 to help maintaining groups with my super advanced features,
 I can do a variety of things, most common of em are:
@@ -84,17 +84,17 @@ I can do a variety of things, most common of em are:
 - Warn users according to the options set and restrict em accordingly.
 - Save notes and filters with proper formatting and reply markup.
 For reporting any issues or bug kindly join support chat and report to kazuko's devs or admins
-for fixing all bugs and issues for your needs[.](https://telegra.ph/file/4a1c827cf2ddbf25e8c0a.jpg )!
-"""
+for fixing all bugs and issues for your needs[.](https://te.legra.ph/file/11de2404e783dd9013e64.mp4 )!
+"""4a1c827cf2ddbf25e8c0a
 buttons = [
     [
-        InlineKeyboardButton(text="About & Support", callback_data="kazuko_"),
+        InlineKeyboardButton(text="About & Support", callback_data="malaai_"),
         InlineKeyboardButton(
             text="Source code", url="https://github.com/heyaaman/KazukoBot"),
       ],
     [
         InlineKeyboardButton(
-            text="️Add Kazuko to your group", url="t.me/KazukoRobot?startgroup=true",
+            text="️Add malaai to your group", url="t.me/malaai?startgroup=true",
         ),
     ],
     [ 
@@ -104,7 +104,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-Hey there! My name is Kazuko.
+Hey there! My name is malaai.
 Have a look at the following for an idea of some of
 the things I can help you with.
 Main commands available:
@@ -116,7 +116,7 @@ Main commands available:
  Click on the buttons below to get documentation about specific modules!
 """
 
-KAZUKO_IMG = "https://telegra.ph/file/d96f5671647dcaf2cc1c4.jpg"
+KAZUKO_IMG = "https://te.legra.ph/file/11de2404e783dd9013e64.mp4"
 
 DONATE_STRING =  """Heya, glad to hear you want to donate!
  You can support the project via [Paypal](ko-fi.com/heyaaman) or by contacting @heyaaman \
